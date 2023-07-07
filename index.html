@@ -38,7 +38,7 @@
         }
 
         button {
-            margin-top: 3%;
+            margin-top: 10%;
             width: 30%;
             height: 30%;
         }
@@ -55,10 +55,10 @@
     <script type="text/javascript">
       <!-- Code JavaScript -->
             function button_click() {
-            let name = document.querySelector('#name').value;
-            let result = confirm("Mình đồng ý " + name + ". asssh, iu cậu quá ik thui!");
+            let tên = document.querySelector('#tên').value;
+            let result = confirm("Mình đồng ý " + tên + ". asssh, iu cậu quá ik thui!");
             while(result !== true) {
-            result = confirm("Mình đồng ý " + name + ". asssh, iu cậu quá ik thui!");
+            result = confirm("Mình đồng ý " + tên + ". asssh, iu cậu quá ik thui!");
             }
             document.body.className = "bg-heart";
         }
