@@ -51,12 +51,13 @@
     <div class="container">
         <h1>Tên cậu là gì?</h1>
         <input type="text" id="name" placeholder="Đánh rơi tên của cậu vào đây cho tớ biết nhé!" />
-        <button onclick="button_onclick()">Làm bạn trai tớ nha! hí hí</button>
+        <button onclick="button_onclick()">Làm bạn trai tớ nha! hí hí
+        </button>
     </div>
     
     <script type="text/javascript">
         <!-- Code JavaScript -->
-        function button_click() {
+        function button_onclick() {
         let name = document.querySelector('#name').value;
         let result = confirm("Mình đồng ý " + name + ". Iu cậu chớt thuiiii");
         while(result !== true) {
